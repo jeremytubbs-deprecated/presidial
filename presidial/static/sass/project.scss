@@ -1,0 +1,58 @@
+// project specific CSS goes here
+
+// bootstrap alert CSS, translated to the django-standard levels of
+// debug, info, success, warning, error
+.alert-debug {
+  color: black;
+  background-color: white;
+  border-color: #d6e9c6;
+}
+
+.alert-info {
+  color: #3a87ad;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+
+.alert-success {
+  color: #468847;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
+.alert-warning {
+  color: black;
+  background-color: orange;
+  border-color: #d6e9c6;
+}
+
+.alert-error {
+  color: #b94a48;
+  background-color: #f2dede;
+  border: none;
+  border-color: #eed3d7;
+}
+
+.login-or {
+  position: relative;
+  display: block;
+  margin: 0 0 20px 0;
+  text-align: center;
+  color: #666;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 43%;
+    border-bottom: 1px solid #cccccc;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 43%;
+    border-bottom: 1px solid #cccccc;
+  }
+}
